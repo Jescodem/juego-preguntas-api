@@ -11,5 +11,5 @@ router.register(r'respuestas', RespuestaViewSet)
 router.register(r'progresos', ProgresoJugadorViewSet)
 
 urlpatterns = [
-    path('api/', include(router.urls)),  # Agregar todas las rutas del API
+    path('', include(router.urls)),  # Agregar todas las rutas del API
 ]
